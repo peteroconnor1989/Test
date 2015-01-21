@@ -11,8 +11,11 @@ public class Test {
 		System.out.println("Hello World");
 		//a change
 		
-		
+		display("hello world");
 		//another change
 	}
 
+	public static void display(String str){
+		System.out.println(str);
+	}
 }
