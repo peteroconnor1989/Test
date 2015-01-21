@@ -14,9 +14,16 @@ public class Test {
 		display("hello world");
 		//another change
 		//and another change
+		
+		for(int i=0; i<10; i++)
+		{
+			System.out.println("Hello World");
+		}
 	}
 
 	public static void display(String str){
 		System.out.println(str);
 	}
+	
+	
 }
